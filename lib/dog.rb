@@ -47,7 +47,6 @@ class Dog
     result = DB[:conn].execute(sql, id)[0]
     puts result
     Dog.new({id: result[0], name: result[1], breed: result[2]})
-    # Dog.create({id: result[0], name: result[1], breed: result[2]})
   end
 
 end
