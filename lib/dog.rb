@@ -56,7 +56,6 @@ class Dog
       dog = self.new({id: dog_data[0], name: dog_data[1], breed: dog_data[2]})
     else
       dog = self.create({id: dog_data[0], name: dog_data[1], breed: dog_data[2]})
-      puts dog
     end
     dog
   end
