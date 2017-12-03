@@ -39,7 +39,6 @@ class Dog
   def self.create(attributes)
     dog = self.new(attributes)
     dog.save
-    dog
   end
 
   def self.find_by_id(id)
